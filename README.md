@@ -8,7 +8,7 @@
 
 -----------------------------------------------------------------------------------------------------------
 
-Installation: 
+ Installation: 
 
 - Clone repo to your /home/$USER/ path
 - Install python3.6: sudo apt-get install python3.6
