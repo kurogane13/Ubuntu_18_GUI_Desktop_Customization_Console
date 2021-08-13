@@ -1,8 +1,12 @@
-#Ubuntu 18 Desktop Customization_Console
+# Ubuntu 18 Desktop Customization Console
 
-#Ubuntu Desktop python console to customize lightdm login screen, login sound, and desktop background
+# Ubuntu Desktop python console to customize lightdm login screen, login sound, and desktop background
 
-#NOTE: Screensots from the GUI program are available to view in the Screenshots folder
+# Author: Gustavo Wydler Azuaga - 08/13/2021
+
+# NOTE: Screensots from the GUI program are available to view in the Screenshots folder
+
+-----------------------------------------------------------------------------------------------------------
 
 Installation: 
 
