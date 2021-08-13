@@ -10,25 +10,25 @@ Installation:
 - Install python3.6: sudo apt-get install python3.6
 - Import the following libraries in the python code:
   
-    -from typing import SupportsComplex
-    -import easygui
-    -from easygui import *
-    -import time
-    -import datetime
-    -from datetime import datetime
-    -import sys
-    -import os
+    from typing import SupportsComplex
+    import easygui
+    from easygui import *
+    import time
+    import datetime
+    from datetime import datetime
+    import sys
+    import os
     
 - Provide no password in the /etc/sudoers/:
     
-    -Access the sudoers file:
+    Access the sudoers file:
      sudo nano /etc/sudoers/
      <your_user>  ALL=(ALL) NOPASSWD:ALL
      Save and exit.
     
 - Open the Ubuntu_Customization_console.destkop file, and replace the command:
 
-    -Exec=gnome-terminal -- python3.6 /home/$USER/Ubuntu_wallpaper_sounds.py
+    Exec=gnome-terminal -- python3.6 /home/$USER/Ubuntu_wallpaper_sounds.py
     
      with:
     
@@ -38,11 +38,11 @@ Installation:
     
 - Provide access permissions to the Ubuntu_Customization_console.destkop file:
 
-    -sudo chmod +rx Ubuntu_Customization_console.destkop
+    sudo chmod +rx Ubuntu_Customization_console.destkop
     
 - Turn the python file into an Ubuntu app:
 
-    -sudo cp /home/$USER/Ubuntu_Customization_console.destkop /usr/share/applications/
+    sudo cp /home/$USER/Ubuntu_Customization_console.destkop /usr/share/applications/
     
 - Run the python console from the apps bar.    
 
