@@ -11,6 +11,7 @@
  Installation: 
 
 - Clone repo to your /home/$USER/ path
+- Copy all the .png files to the /home/$USER/ path
 - Install python3.6: sudo apt-get install python3.6
 - Import the following libraries in the python code:
   
